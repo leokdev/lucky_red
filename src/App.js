@@ -28,17 +28,13 @@ function App() {
               <input type='checkbox' value='TRUE' title='Keep me Signed in' /> Keep me Signed in
             </label>
 
-            <input type='submit' id='do_login' value='GET STARTED' title='Get Started' />
+            <input type='submit' id='do_login' value='Login' title='Get Started' />
+            <input type='submit' id='do_login_with_telegram_account' value='Login with telegram account' title='Get Started' />
           </div>
         </div>
       </div>
       <div class='box-info'>
-        <p><button onclick="closeLoginInfo();" class='b b-info i i-left' title='Back to Sign In'></button>
-          <h3>Need Help?</h3>
-        </p>
-        <div class='line-wh'></div>
         <button onclick="" class='b-support' title='Forgot Password?'> Forgot Password?</button>
-        <button onclick="" class='b-support' title='Contact Support'> Contact Support</button>
         <div class='line-wh'></div>
         <button onclick="" class='b-cta' title='Sign up now!'> CREATE ACCOUNT</button>
       </div>
